@@ -4,6 +4,7 @@ import os
 
 _credentials = {
     # Mongo Paths + URI
+    ""
     "MONGODB_URI": os.getenv("MONGODB_URI"),
     "SHARED_LIB_PATH": "/Users/han/workspace/crypt_shared/lib/mongo_crypt_v1.dylib",
 }

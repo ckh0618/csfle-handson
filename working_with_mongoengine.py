@@ -84,7 +84,7 @@ def build_csfle_options():
         kms_providers, key_vault_namespace, schema_map=schema, **extra_options
     )
 
-    connect("test", DEFAULT_CONNECTION_NAME, host="mongodb+srv://csfle:csfle00@csfle.ewcj8.mongodb.net",
+    connect("test", DEFAULT_CONNECTION_NAME, host=ge,
             auto_encryption_opts=fle_opts)
 
 
